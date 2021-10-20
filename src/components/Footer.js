@@ -9,7 +9,7 @@ import ContainerSocialNetworks from './ContainerSocialNetworks';
 
 export default function Footer() {
 
-    const copyRight = `© 2021. carlosvargs.Make With Love by.`
+    const copyRight = `© 2021. carlosvargs.Made With Love by.`
     const dev = 'Carlos Vargas'
     const motto = 'Healthy Food For Healthy Body'
 
