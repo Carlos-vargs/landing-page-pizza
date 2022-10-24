@@ -1,4 +1,4 @@
-import { Flex, Link } from "@chakra-ui/layout";
+import { Flex, Link } from "@chakra-ui/react";
 
 export default function ContainerSocialNetworks({ data, mtSize, gap }) {
   return (

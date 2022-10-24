@@ -1,4 +1,4 @@
-import { Center, Flex } from "@chakra-ui/layout";
+import { Center, Flex } from "@chakra-ui/react";
 import PlayIcon from "./PlayIcon";
 import "./pulseAnimation.css";
 

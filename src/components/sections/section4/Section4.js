@@ -1,5 +1,4 @@
-import { Image } from "@chakra-ui/image";
-import { Flex, Heading, SimpleGrid, Text } from "@chakra-ui/layout";
+import { Flex, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import pizzaImage from "../../../resources/images/pizza.png";
 import CardServiceS4 from "./CardServiceS4";
 import MoneyIcon from "./MoneyIcon";

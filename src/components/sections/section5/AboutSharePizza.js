@@ -1,5 +1,4 @@
-import { Image } from "@chakra-ui/image";
-import { Center, Heading, Text } from "@chakra-ui/layout";
+import { Center, Heading, Image, Text } from "@chakra-ui/react";
 import ShareSocialNetworks from "./ShareSocialNetworks";
 import pizza from "../../../resources/images/share-pizza.png";
 import Facebook from "../../social_networks/Facebook";

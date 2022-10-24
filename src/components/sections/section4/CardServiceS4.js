@@ -1,4 +1,4 @@
-import { Center, Flex, Heading, Text } from "@chakra-ui/layout";
+import { Center, Flex, Heading, Text } from "@chakra-ui/react";
 
 export default function CardServiceS4({ title, iconSvg, description }) {
   return (

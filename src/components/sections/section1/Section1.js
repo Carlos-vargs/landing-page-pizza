@@ -1,5 +1,4 @@
-import { Image } from "@chakra-ui/image";
-import { Flex, Center } from "@chakra-ui/layout";
+import { Flex, Center, Image } from "@chakra-ui/react";
 import bgImage from "../../../resources/images/home-bg.jpg";
 import deliveryMan from "../../../resources/images/delivery-man.png";
 import Logo from "../../Logo";

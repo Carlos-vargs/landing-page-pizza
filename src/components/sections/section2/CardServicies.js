@@ -1,5 +1,4 @@
-import { Flex, Stack, Text } from "@chakra-ui/layout";
-import { Heading } from "@chakra-ui/react";
+import { Flex, Stack, Text, Heading } from "@chakra-ui/react";
 import bgImage from "../../../resources/images/icon-bg.png";
 
 export default function CardServicies({ title, description, iconSvg }) {

@@ -1,4 +1,4 @@
-import { Center, Flex, Heading, Text } from "@chakra-ui/layout";
+import { Center, Flex, Heading, Text } from "@chakra-ui/react";
 import CardCombos from "./CardCombos";
 
 export default function Section6() {

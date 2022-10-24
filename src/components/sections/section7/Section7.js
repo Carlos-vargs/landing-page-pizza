@@ -1,9 +1,9 @@
-import { Image } from "@chakra-ui/image";
-import { Box, Center, Flex, Heading } from "@chakra-ui/layout";
-import arrowDown from "../../../resources/images/arrow-down.png";
-import ContainerInfo from "./ContainerInfo";
-import ContactForm from "./ContactForm";
 import {
+  Box,
+  Center,
+  Flex,
+  Heading,
+  Image,
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -11,7 +11,10 @@ import {
   ModalFooter,
   ModalHeader,
   ModalOverlay,
-} from "@chakra-ui/modal";
+} from "@chakra-ui/react";
+import arrowDown from "../../../resources/images/arrow-down.png";
+import ContainerInfo from "./ContainerInfo";
+import ContactForm from "./ContactForm";
 import Btn from "../../Btn";
 import Logo from "../../Logo";
 import { useState } from "react";

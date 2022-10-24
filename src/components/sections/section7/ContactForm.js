@@ -1,6 +1,4 @@
-import { Input } from "@chakra-ui/input";
-import { Flex } from "@chakra-ui/layout";
-import { Textarea } from "@chakra-ui/textarea";
+import { Flex, Input, Textarea } from "@chakra-ui/react";
 
 export default function ContactForm({
   onChange,
