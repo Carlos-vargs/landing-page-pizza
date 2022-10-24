@@ -1,5 +1,4 @@
-import { Box, Heading, Text } from "@chakra-ui/react";
-import Btn from "./Btn";
+import { Box, Button, Heading, Text } from "@chakra-ui/react";
 
 export default function BookOnline({ phoneNumber }) {
   return (
@@ -28,19 +27,9 @@ export default function BookOnline({ phoneNumber }) {
         Lorem ipsum dolor sit amet, consectetur <br />
         adipisicing elit
       </Text>
-      <Box>
-        <Btn
-          title={phoneNumber}
-          bgColor={"transparent"}
-          bgHoverColor={"#ff2600"}
-          textColor={"white"}
-          textHoverColor={"white"}
-          borderColor={"white"}
-          modifyTheWidth={"190px"}
-          modifyFontSize={"14px"}
-          modifyBorderColor={"#ff2600"}
-        />
-      </Box>
+      <Button variant="outline" width="190px">
+        {phoneNumber}
+      </Button>
     </Box>
   );
 }

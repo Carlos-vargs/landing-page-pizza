@@ -1,13 +1,12 @@
-import { Flex } from "@chakra-ui/react";
-import Btn from "./Btn";
+import { Button, ButtonGroup } from "@chakra-ui/react";
 
 function ButtonsContainer() {
   return (
-    <Flex
-      pl={["0px", "0px", "0px", "106px", "106px"]}
-      pt="40px"
+    <ButtonGroup
+      paddingInlineStart={["0px", "0px", "0px", "106px", "106px"]}
+      paddingBlockStart="40px"
       gridGap="12px"
-      mx={["auto", "auto", "auto", "0px", "0px"]}
+      marginInline={["auto", "auto", "auto", "0px", "0px"]}
       flexWrap="wrap"
       justifyContent={[
         "center",
@@ -16,26 +15,11 @@ function ButtonsContainer() {
         "flex-start",
         "flex-start",
       ]}
+      variant="outline"
     >
-      <Btn
-        title={"view our services"}
-        bgColor={"transparent"}
-        bgHoverColor={"#ff2600"}
-        textColor={"white"}
-        textHoverColor={"white"}
-        borderColor={"#ff2600"}
-        modifyBorderColor={"#ff2600"}
-      />
-      <Btn
-        title={"view our menu"}
-        bgColor={"transparent"}
-        bgHoverColor={"#ff2600"}
-        textColor={"white"}
-        textHoverColor={"white"}
-        borderColor={"#ff2600"}
-        modifyBorderColor={"#ff2600"}
-      />
-    </Flex>
+      <Button fontSize="12px">view our services</Button>
+      <Button fontSize="12px">view our menu</Button>
+    </ButtonGroup>
   );
 }
 

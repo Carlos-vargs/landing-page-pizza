@@ -1,5 +1,4 @@
-import { Box, Center, Flex, Text } from "@chakra-ui/react";
-import Btn from "./Btn";
+import { Box, Button, Center, Flex, Text } from "@chakra-ui/react";
 import PricingSvg from "../resources/icons/PriceIcon";
 
 export default function CardCombos({ data }) {
@@ -37,16 +36,19 @@ export default function CardCombos({ data }) {
           ))}
         </Flex>
         <Box mt="30px">
-          <Btn
-            title={"BUY NOW"}
-            bgColor={"transparent"}
-            bgHoverColor={"#ff2600"}
-            textHoverColor={"white"}
-            borderColor={"white"}
-            modifyTheWidth={"190px"}
-            modifyFontSize={"14px"}
-            modifyBorderColor={"#ff2600"}
-          />
+          <Button
+            variant="outline"
+            width="190px"
+            color="ferrariRed.900"
+            _hover={{
+              color: "white",
+              _after: { left: 0 },
+              borderColor: "ferrariRed.900",
+              backgroundColor: "transparent",
+            }}
+          >
+            buy now
+          </Button>
         </Box>
       </Center>
     </Flex>

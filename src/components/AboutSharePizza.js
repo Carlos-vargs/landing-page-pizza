@@ -53,7 +53,7 @@ export default function AboutSharePizza() {
           fontSize="46px"
           fontFamily="'Montserrat', sans-serif !important"
           display="inline"
-          color="#ff2600"
+          color="ferrariRed.900"
           fontWeight="600 !important"
         >
           Pizza
