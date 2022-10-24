@@ -46,3 +46,9 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 45px hsla(182, 74%, 86%, 0);
+  }
+}
