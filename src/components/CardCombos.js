@@ -1,6 +1,6 @@
 import { Box, Center, Flex, Text } from "@chakra-ui/react";
-import Btn from "../../Btn";
-import PricingSvg from "./PricingSvg";
+import Btn from "./Btn";
+import PricingSvg from "../resources/icons/PriceIcon";
 
 export default function CardCombos({ data }) {
   const userScreen = window.screen.width;

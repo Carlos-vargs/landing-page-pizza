@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/react";
-import BgVideo from "../../../resources/images/video-bg.png";
+import BgVideo from "../resources/images/video-bg.png";
 import ButtonPlay from "./ButtonPlay";
 import BookOnline from "./BookOnline";
 import AboutSharePizza from "./AboutSharePizza";

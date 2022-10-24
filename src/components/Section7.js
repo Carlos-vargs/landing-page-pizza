@@ -12,11 +12,11 @@ import {
   ModalHeader,
   ModalOverlay,
 } from "@chakra-ui/react";
-import arrowDown from "../../../resources/images/arrow-down.png";
+import arrowDown from "../resources/images/arrow-down.png";
 import ContainerInfo from "./ContainerInfo";
 import ContactForm from "./ContactForm";
-import Btn from "../../Btn";
-import Logo from "../../Logo";
+import Btn from "./Btn";
+import Logo from "./Logo";
 import { useState } from "react";
 
 export default function Section7() {

@@ -1,35 +1,35 @@
 import { Center, Heading, Image, Text } from "@chakra-ui/react";
 import ShareSocialNetworks from "./ShareSocialNetworks";
-import pizza from "../../../resources/images/share-pizza.png";
-import Facebook from "../../social_networks/Facebook";
-import Github from "../../social_networks/Github";
-import Instagram from "../../social_networks/Instagram";
-import Twitter from "../../social_networks/Twitter";
+import pizza from "../resources/images/share-pizza.png";
+import FacebookIcon from "../resources/icons/FacebookIcon";
+import GithubIcon from "../resources/icons/GithubIcon";
+import InstagramIcon from "../resources/icons/InstagramIcon";
+import TwitterIcon from "../resources/icons/TwitterIcon";
 
 export default function AboutSharePizza() {
   const socialNetworks = [
     {
       id: "3f15021c-9da5-4e2f-8f96-dd814f0f563b",
       socialNetwork: "Facebook",
-      iconSvg: <Facebook />,
+      iconSvg: <FacebookIcon />,
       pl: "6px",
     },
     {
       id: "8b459f62-2d30-49c7-b52b-748fe1c9519c",
       socialNetwork: "Instagram",
-      iconSvg: <Instagram />,
+      iconSvg: <InstagramIcon />,
       url: "https://www.instagram.com/nc_cvargas",
     },
     {
       id: "2f625186-f5a9-4a9c-ad5a-8553d351ca61",
       socialNetwork: "Github",
-      iconSvg: <Github />,
+      iconSvg: <GithubIcon />,
       url: "https://github.com/Carlos-vargs",
     },
     {
       id: "c606eb56-535d-4a55-8c2d-1b987a04a54b",
       socialNetwork: "Twitter",
-      iconSvg: <Twitter />,
+      iconSvg: <TwitterIcon />,
       url: "https://twitter.com/nc_cvargas",
       pt: "2px",
     },

@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import "./animations.css";
+import "../styles/animations.css";
 
 export default function AnimatedCircle() {
   return (

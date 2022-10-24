@@ -1,4 +1,4 @@
-export default function Instagram() {
+export default function InstagramIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg">
       <path

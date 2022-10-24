@@ -1,6 +1,6 @@
 import { Center, Flex } from "@chakra-ui/react";
-import PlayIcon from "./PlayIcon";
-import "./pulseAnimation.css";
+import PlayIcon from "../resources/icons/PlayIcon";
+import "../styles/animations.css";
 
 export default function ButtonPlay() {
   return (

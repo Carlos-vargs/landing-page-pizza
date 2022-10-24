@@ -1,5 +1,5 @@
 import { Box, Flex } from "@chakra-ui/react";
-import "./animations.css";
+import "../styles/animations.css";
 
 export default function AnimatedTriangle() {
   return (

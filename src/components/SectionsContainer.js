@@ -1,11 +1,11 @@
 import Layout from "./Layout";
-import Section1 from "./sections/section1/Section1";
-import Section2 from "./sections/section2/Section2";
-import Section3 from "./sections/section3/Section3";
-import Section4 from "./sections/section4/Section4";
-import Section5 from "./sections/section5/Section5";
-import Section6 from "./sections/section6/Section6";
-import Section7 from "./sections/section7/Section7";
+import Section1 from "./Section1";
+import Section2 from "./Section2";
+import Section3 from "./Section3";
+import Section4 from "./Section4";
+import Section5 from "./Section5";
+import Section6 from "./Section6";
+import Section7 from "./Section7";
 
 export default function SectionsContainer() {
   return (
