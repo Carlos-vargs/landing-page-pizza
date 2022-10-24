@@ -1,4 +1,4 @@
-export default function PricingSvg({ price, fillValue }) {
+export default function PriceIcon({ price, fillValue }) {
   return (
     <svg viewBox="0 0 360 220" width="100%">
       <path
