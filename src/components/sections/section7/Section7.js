@@ -1,12 +1,12 @@
 import { Image } from '@chakra-ui/image';
 import { Box, Center, Flex, Heading } from '@chakra-ui/layout';
-import React, { Fragment, useState } from 'react';
 import arrowDown from '../../../resources/images/arrow-down.png'
 import ContainerInfo from './ContainerInfo';
 import ContactForm from './ContactForm'
 import { Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay } from '@chakra-ui/modal';
 import Btn from '../../Btn';
 import Logo from '../../Logo';
+import { useState } from 'react';
 
 export default function Section7() {
 
@@ -57,7 +57,6 @@ export default function Section7() {
     }
 
     return (
-        <Fragment>
             <Flex
                 justifyContent="space-between"
                 alignItems="flex-start"
@@ -104,7 +103,7 @@ export default function Section7() {
                             </ModalHeader>
                             <ModalCloseButton color="white" />
                             <ModalBody textAlign="center" lineHeight="30px" mt="20px">
-                                {`Hello ${user.name}, Thank you for sending your request in a few minutes you will be attended`}
+                                {`Hello ${user?.name}, Thank you for sending your request in a few minutes you will be attended`}
                             </ModalBody>
 
                             <ModalFooter>
@@ -125,6 +124,5 @@ export default function Section7() {
 
                 </Center>
             </Flex>
-        </Fragment>
     );
 }

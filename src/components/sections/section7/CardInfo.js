@@ -1,5 +1,4 @@
 import { Box, Center, Flex } from '@chakra-ui/layout';
-import React from 'react';
 
 export default function CardInfo({icon, description}) {
     return (

@@ -1,6 +1,5 @@
 import { Image } from '@chakra-ui/image';
 import { Center, Heading, Text } from '@chakra-ui/layout';
-import React, { Fragment } from 'react';
 import ShareSocialNetworks from './ShareSocialNetworks';
 import pizza from '../../../resources/images/share-pizza.png'
 import Facebook from '../../social_networks/Facebook';
@@ -43,7 +42,7 @@ export default function AboutSharePizza() {
     const nonAnimatedScreen = 1280
 
     return (
-        <Fragment>
+        <>
             <Heading
                 whiteSpace="pre-wrap"
                 fontFamily="'Montserrat', sans-serif !important"
@@ -72,6 +71,6 @@ export default function AboutSharePizza() {
                 data-aos-easing={userScreen > nonAnimatedScreen ? 'ease-in-out' : 'none'}
 
             />
-        </Fragment>
+        </>
     );
 }

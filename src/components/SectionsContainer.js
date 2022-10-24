@@ -1,4 +1,3 @@
-import React from 'react';
 import Layout from './Layout';
 import Section1 from './sections/section1/Section1';
 import Section2 from './sections/section2/Section2';

@@ -1,5 +1,4 @@
 import { Box, Center, Flex, Text } from '@chakra-ui/layout';
-import React from 'react';
 import Btn from '../../Btn';
 import PricingSvg from './PricingSvg'
 

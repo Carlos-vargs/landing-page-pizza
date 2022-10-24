@@ -1,5 +1,4 @@
 import { Center, Flex, Heading, Text } from '@chakra-ui/layout';
-import React, { Fragment } from 'react';
 import CardCombos from './CardCombos';
 
 export default function Section6() {
@@ -71,7 +70,7 @@ export default function Section6() {
     ]
 
     return (
-        <Fragment>
+        
             <Flex my='96px' justifyContent="center" fontFamily="'Montserrat', sans-serif !important">
                 <Center flexDirection="column" gridGap="40px" textAlign="center">
                     <Heading>
@@ -88,6 +87,6 @@ export default function Section6() {
                     </Flex>
                 </Center>
             </Flex>
-        </Fragment>
+        
     );
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import ReadMore from './ReadMore';
 import StatisticsContainer from './StatisticsContainer';
 import { Flex, Text, Heading } from '@chakra-ui/layout';

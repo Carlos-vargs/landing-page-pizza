@@ -1,10 +1,9 @@
-import React, { Fragment } from 'react';
 import { Flex, Link } from '@chakra-ui/layout';
 
 export default function ShareSocialNetworks({ data, gap }) {
 
     return (
-        <Fragment>
+        <>
             <Flex gridGap={gap} color="white" >
                 {
                     data.map(e =>
@@ -32,6 +31,6 @@ export default function ShareSocialNetworks({ data, gap }) {
                     )
                 }
             </Flex>
-        </Fragment>
+        </>
     );
 }
