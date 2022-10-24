@@ -40,12 +40,12 @@ export default function CardCombos({ data }) {
           <Btn
             title={"BUY NOW"}
             bgColor={"transparent"}
-            bgHoverColor={"#ff2600"}
+            bgHoverColor={"ferrariRed.900"}
             textHoverColor={"white"}
             borderColor={"white"}
             modifyTheWidth={"190px"}
             modifyFontSize={"14px"}
-            modifyBorderColor={"#ff2600"}
+            modifyBorderColor={"ferrariRed.900"}
           />
         </Box>
       </Center>

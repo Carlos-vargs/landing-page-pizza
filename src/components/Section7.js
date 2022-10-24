@@ -103,11 +103,11 @@ export default function Section7() {
             <Btn
               title={"send messsage"}
               bgColor={"transparent"}
-              bgHoverColor={"#ff2600"}
-              textColor={"#ff2600"}
+              bgHoverColor={"ferrariRed.900"}
+              textColor={"ferrariRed.900"}
               textHoverColor={"white"}
-              borderColor={"#ff2600"}
-              modifyBorderColor={"#ff2600"}
+              borderColor={"ferrariRed.900"}
+              modifyBorderColor={"ferrariRed.900"}
               type={"submit"}
             />
           </Box>
@@ -116,7 +116,7 @@ export default function Section7() {
         <Modal isOpen={isOpen} onClose={setClose}>
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader bgColor="#ff2600">
+            <ModalHeader bgColor="ferrariRed.900">
               <Logo wSize={"100px"} hSize={"50px"} />
             </ModalHeader>
             <ModalCloseButton color="white" />
@@ -129,11 +129,11 @@ export default function Section7() {
                 <Btn
                   title={"close"}
                   bgColor={"white"}
-                  bgHoverColor={"#ff2600"}
-                  textColor={"#ff2600"}
+                  bgHoverColor={"ferrariRed.900"}
+                  textColor={"ferrariRed.900"}
                   textHoverColor={"white"}
-                  borderColor={"#ff2600"}
-                  modifyBorderColor={"#ff2600"}
+                  borderColor={"ferrariRed.900"}
+                  modifyBorderColor={"ferrariRed.900"}
                 />
               </Box>
             </ModalFooter>

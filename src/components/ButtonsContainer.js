@@ -20,20 +20,20 @@ function ButtonsContainer() {
       <Btn
         title={"view our services"}
         bgColor={"transparent"}
-        bgHoverColor={"#ff2600"}
+        bgHoverColor={"ferrariRed.900"}
         textColor={"white"}
         textHoverColor={"white"}
-        borderColor={"#ff2600"}
-        modifyBorderColor={"#ff2600"}
+        borderColor={"ferrariRed.900"}
+        modifyBorderColor={"ferrariRed.900"}
       />
       <Btn
         title={"view our menu"}
         bgColor={"transparent"}
-        bgHoverColor={"#ff2600"}
+        bgHoverColor={"ferrariRed.900"}
         textColor={"white"}
         textHoverColor={"white"}
-        borderColor={"#ff2600"}
-        modifyBorderColor={"#ff2600"}
+        borderColor={"ferrariRed.900"}
+        modifyBorderColor={"ferrariRed.900"}
       />
     </Flex>
   );
