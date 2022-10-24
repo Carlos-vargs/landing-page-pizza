@@ -1,5 +1,5 @@
 import {
-  Box,
+  Button,
   Center,
   Flex,
   Heading,
@@ -15,7 +15,6 @@ import {
 import arrowDown from "../resources/images/arrow-down.png";
 import ContainerInfo from "./ContainerInfo";
 import ContactForm from "./ContactForm";
-import Btn from "./Btn";
 import Logo from "./Logo";
 import { useState } from "react";
 
@@ -99,18 +98,22 @@ export default function Section7() {
           onSubmit={handleSubmit}
           formValues={state.form}
         >
-          <Box mt="20px" mx={["auto", "auto", "auto", "0px", "0px"]}>
-            <Btn
-              title={"send messsage"}
-              bgColor={"transparent"}
-              bgHoverColor={"ferrariRed.900"}
-              textColor={"ferrariRed.900"}
-              textHoverColor={"white"}
-              borderColor={"ferrariRed.900"}
-              modifyBorderColor={"ferrariRed.900"}
-              type={"submit"}
-            />
-          </Box>
+          <Button
+            variant="outline"
+            fontSize="12px"
+            type="submit"
+            marginBlockStart="20px"
+            marginInline={["auto", "auto", "auto", "0px", "0px"]}
+            color="ferrariRed.900"
+            _hover={{
+              color: "white",
+              _after: { left: 0 },
+              borderColor: "ferrariRed.900",
+              backgroundColor: "transparent",
+            }}
+          >
+            send messsage
+          </Button>
         </ContactForm>
 
         <Modal isOpen={isOpen} onClose={setClose}>
@@ -125,17 +128,23 @@ export default function Section7() {
             </ModalBody>
 
             <ModalFooter>
-              <Box onClick={setClose}>
-                <Btn
-                  title={"close"}
-                  bgColor={"white"}
-                  bgHoverColor={"ferrariRed.900"}
-                  textColor={"ferrariRed.900"}
-                  textHoverColor={"white"}
-                  borderColor={"ferrariRed.900"}
-                  modifyBorderColor={"ferrariRed.900"}
-                />
-              </Box>
+              <Button
+                variant="outline"
+                onClick={setClose}
+                fontSize="12px"
+                type="submit"
+                marginBlockStart="20px"
+                marginInline={["auto", "auto", "auto", "0px", "0px"]}
+                color="ferrariRed.900"
+                _hover={{
+                  color: "white",
+                  _after: { left: 0 },
+                  borderColor: "ferrariRed.900",
+                  backgroundColor: "transparent",
+                }}
+              >
+                close
+              </Button>
             </ModalFooter>
           </ModalContent>
         </Modal>

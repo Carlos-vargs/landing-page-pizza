@@ -27,11 +27,7 @@ export default function BookOnline({ phoneNumber }) {
         Lorem ipsum dolor sit amet, consectetur <br />
         adipisicing elit
       </Text>
-      <Button
-        variant="outline"
-        width="190px"
-        _hover={{ _after: { left: 0 }, borderColor: "ferrariRed.900" }}
-      >
+      <Button variant="outline" width="190px">
         {phoneNumber}
       </Button>
     </Box>
