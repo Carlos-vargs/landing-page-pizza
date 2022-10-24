@@ -1,7 +1,7 @@
 import { Flex, Center, Image } from "@chakra-ui/react";
-import bgImage from "../../../resources/images/home-bg.jpg";
-import deliveryMan from "../../../resources/images/delivery-man.png";
-import Logo from "../../Logo";
+import bgImage from "../resources/images/home-bg.jpg";
+import deliveryMan from "../resources/images/delivery-man.png";
+import Logo from "./Logo";
 import ButtonsContainer from "./ButtonsContainer";
 import TittleS1 from "./TittleS1";
 

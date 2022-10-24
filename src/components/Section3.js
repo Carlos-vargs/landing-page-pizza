@@ -1,6 +1,6 @@
 import { Flex, Image } from "@chakra-ui/react";
-import ImageBg from "../../../resources/images/facts-bg.jpg";
-import pizzaIngredients from "../../../resources/images/pizza-ingredients.png";
+import ImageBg from "../resources/images/facts-bg.jpg";
+import pizzaIngredients from "../resources/images/pizza-ingredients.png";
 import InfoContainer from "./InfoContainer";
 
 export default function Section3() {

@@ -1,10 +1,10 @@
 import { Flex, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
-import pizzaImage from "../../../resources/images/pizza.png";
+import pizzaImage from "../resources/images/pizza.png";
 import CardServiceS4 from "./CardServiceS4";
-import MoneyIcon from "./MoneyIcon";
-import ShoppingCarIcon from "./ShoppingCarIcon";
-import StaffIcon from "./StaffIcon";
-import MessageIcon from "./MessageIcon";
+import MoneyIcon from "../resources/icons/MoneyIcon";
+import ShoppingCarIcon from "../resources/icons/ShoppingCarIcon";
+import StaffIcon from "../resources/icons/StaffIcon";
+import MessageIcon from "../resources/icons/MessageIcon";
 
 export default function Section4() {
   const data = [

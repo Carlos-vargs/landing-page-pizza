@@ -1,8 +1,8 @@
 import { Center, Flex, Heading } from "@chakra-ui/react";
 import CardServicies from "./CardServicies";
-import PizzaIcon from "./PizzaIcon";
-import PlateIcon from "./PlateIcon";
-import DeliveryCarIcon from "./DeliveryCarIcon";
+import PizzaIcon from "../resources/icons/PizzaIcon";
+import PlateIcon from "../resources/icons/PlateIcon";
+import DeliveryCarIcon from "../resources/icons/DeliveryCarIcon";
 
 export default function Section2() {
   const data = [
