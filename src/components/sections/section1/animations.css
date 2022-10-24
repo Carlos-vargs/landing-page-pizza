@@ -1,47 +1,48 @@
 @keyframes move {
-    20% {
-        transform: translate(73px, -1px) rotate(36deg);
-    }
+  20% {
+    transform: translate(73px, -1px) rotate(36deg);
+  }
 
-    40% {
-        transform: translate(141px, 72px) rotate(72deg);
-    }
+  40% {
+    transform: translate(141px, 72px) rotate(72deg);
+  }
 
-    60% {
-        transform: translate(83px, 122px) rotate(108deg);
-    }
+  60% {
+    transform: translate(83px, 122px) rotate(108deg);
+  }
 }
 
 .rounded-triangle,
 .rounded-triangle:before,
 .rounded-triangle:after {
-    position: absolute;
-    display                : block;
-    width                  : 90px;
-    height                 : 90px;
-    background-color       : #ff2600;
-    border-top-right-radius: 80px;
+  position: absolute;
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-color: #ff2600;
+  border-top-right-radius: 80px;
 }
 
 .rounded-triangle {
-    transform: rotate(-60deg) skewX(-30deg) scale(1, .866);
+  transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
 }
 
 .rounded-triangle:before,
 .rounded-triangle:after {
-    content : '';
+  content: "";
 }
 
 .rounded-triangle:before {
-    transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707)
+    translate(0, -50%);
 }
 
 .rounded-triangle:after {
-    transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+  transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
 }
 
 @keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
+  }
 }
