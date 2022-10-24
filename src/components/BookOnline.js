@@ -1,5 +1,5 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
-import Btn from "../../Btn";
+import Btn from "./Btn";
 
 export default function BookOnline({ phoneNumber }) {
   return (

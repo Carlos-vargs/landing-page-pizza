@@ -1,5 +1,5 @@
 import { Center, Flex, Heading, Text } from "@chakra-ui/react";
-import ArrowRightIcon from "./ArrowRightIcon";
+import ArrowRightIcon from "../resources/icons/ArrowRightIcon";
 
 export default function ReadMore() {
   return (

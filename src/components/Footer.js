@@ -1,7 +1,7 @@
-import Facebook from "./social_networks/Facebook";
-import Instagram from "./social_networks/Instagram";
-import Github from "./social_networks/Github";
-import Twitter from "./social_networks/Twitter";
+import FacebookIcon from "../resources/icons/FacebookIcon";
+import InstagramIcon from "../resources/icons/InstagramIcon";
+import GithubIcon from "../resources/icons/GithubIcon";
+import TwitterIcon from "../resources/icons/TwitterIcon";
 import Logo from "./Logo";
 import { Center, Flex, Text } from "@chakra-ui/react";
 import ContainerSocialNetworks from "./ContainerSocialNetworks";
@@ -14,22 +14,22 @@ export default function Footer() {
   const socialNetworks = [
     {
       socialNetwork: "Facebook",
-      iconSvg: <Facebook />,
+      iconSvg: <FacebookIcon />,
       pl: "6px",
     },
     {
       socialNetwork: "Instagram",
-      iconSvg: <Instagram />,
+      iconSvg: <InstagramIcon />,
       url: "https://www.instagram.com/nc_cvargas",
     },
     {
       socialNetwork: "Github",
-      iconSvg: <Github />,
+      iconSvg: <GithubIcon />,
       url: "https://github.com/Carlos-vargs",
     },
     {
       socialNetwork: "Twitter",
-      iconSvg: <Twitter />,
+      iconSvg: <TwitterIcon />,
       url: "https://twitter.com/nc_cvargas",
       pt: "2px",
     },

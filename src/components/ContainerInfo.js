@@ -1,8 +1,8 @@
 import { Flex } from "@chakra-ui/react";
 import CardInfo from "./CardInfo";
-import EnvelopeIcon from "./EnvelopeIcon";
-import GpsIcon from "./GpsIcon";
-import PhoneIcon from "./PhoneIcon";
+import EnvelopeIcon from "../resources/icons/EnvelopeIcon";
+import GpsIcon from "../resources/icons/GpsIcon";
+import PhoneIcon from "../resources/icons/PhoneIcon";
 
 export default function ContainerInfo() {
   const info = [
