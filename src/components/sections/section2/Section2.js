@@ -1,4 +1,4 @@
-import { Center, Flex, Heading } from "@chakra-ui/layout";
+import { Center, Flex, Heading } from "@chakra-ui/react";
 import CardServicies from "./CardServicies";
 import PizzaIcon from "./PizzaIcon";
 import PlateIcon from "./PlateIcon";

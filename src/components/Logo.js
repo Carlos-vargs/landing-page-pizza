@@ -1,6 +1,5 @@
 import LogoImage from "../resources/images/don-pizzon-logo.png";
-import { Image } from "@chakra-ui/image";
-import { Box } from "@chakra-ui/layout";
+import { Box, Image } from "@chakra-ui/react";
 
 export default function Logo({ wSize, hSize, mtSize }) {
   return (

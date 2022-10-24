@@ -1,5 +1,4 @@
-import { Button } from "@chakra-ui/button";
-import { Text } from "@chakra-ui/layout";
+import { Button, Text } from "@chakra-ui/react";
 
 export default function Btn({
   title,

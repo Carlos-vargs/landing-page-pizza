@@ -1,6 +1,6 @@
 import ReadMore from "./ReadMore";
 import StatisticsContainer from "./StatisticsContainer";
-import { Flex, Text, Heading } from "@chakra-ui/layout";
+import { Flex, Text, Heading } from "@chakra-ui/react";
 
 export default function InfoContainer() {
   return (

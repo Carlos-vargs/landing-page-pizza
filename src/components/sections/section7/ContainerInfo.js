@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/layout";
+import { Flex } from "@chakra-ui/react";
 import CardInfo from "./CardInfo";
 import EnvelopeIcon from "./EnvelopeIcon";
 import GpsIcon from "./GpsIcon";

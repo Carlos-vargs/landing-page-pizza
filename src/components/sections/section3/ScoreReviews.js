@@ -1,4 +1,4 @@
-import { Flex, Text } from "@chakra-ui/layout";
+import { Flex, Text } from "@chakra-ui/react";
 
 export default function ScoreReviews({ score, title }) {
   return (

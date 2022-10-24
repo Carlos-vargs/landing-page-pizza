@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/layout";
+import { Flex } from "@chakra-ui/react";
 import Btn from "../../Btn";
 
 function ButtonsContainer() {

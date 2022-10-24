@@ -3,7 +3,7 @@ import Instagram from "./social_networks/Instagram";
 import Github from "./social_networks/Github";
 import Twitter from "./social_networks/Twitter";
 import Logo from "./Logo";
-import { Center, Flex, Text } from "@chakra-ui/layout";
+import { Center, Flex, Text } from "@chakra-ui/react";
 import ContainerSocialNetworks from "./ContainerSocialNetworks";
 
 export default function Footer() {
