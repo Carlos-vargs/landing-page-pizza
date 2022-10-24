@@ -1,11 +1,9 @@
 import { Input } from '@chakra-ui/input';
 import { Flex } from '@chakra-ui/layout';
 import { Textarea } from '@chakra-ui/textarea';
-import React, { Fragment } from 'react';
 
 export default function ContactForm({ onChange, onSubmit, formValues, children }) {
     return (
-        <Fragment>
             <Flex as="form" onSubmit={onSubmit} flexDirection="column" mt="46px">
                 <Flex gridGap="20px" >
                     <Input
@@ -36,6 +34,5 @@ export default function ContactForm({ onChange, onSubmit, formValues, children }
                 />
                 {children}
             </Flex>
-        </Fragment>
     );
 }

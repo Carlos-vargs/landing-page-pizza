@@ -1,9 +1,7 @@
 import { Flex, Text } from '@chakra-ui/layout';
-import React, { Fragment } from 'react';
 
 export default function ScoreReviews({ score, title }) {
     return (
-        <Fragment>
             <Flex
                 fontFamily="'Montserrat',sans-serif !important"
                 flexDirection="column"
@@ -19,6 +17,5 @@ export default function ScoreReviews({ score, title }) {
                     {title}
                 </Text>
             </Flex>
-        </Fragment>
     );
 }

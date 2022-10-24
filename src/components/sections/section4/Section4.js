@@ -1,6 +1,5 @@
 import { Image } from '@chakra-ui/image';
 import { Flex, Heading, SimpleGrid, Text } from '@chakra-ui/layout';
-import React, { Fragment } from 'react';
 import pizzaImage from '../../../resources/images/pizza.png'
 import CardServiceS4 from './CardServiceS4';
 import MoneyIcon from './MoneyIcon'
@@ -42,7 +41,6 @@ export default function Section4() {
     const nonAnimatedScreen = 1280
 
     return (
-        <Fragment>
             <Flex
                 gridGap="40px"
                 w="full"
@@ -84,6 +82,5 @@ export default function Section4() {
 
                 />
             </Flex>
-        </Fragment>
     );
 }

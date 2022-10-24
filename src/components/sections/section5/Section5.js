@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import { Flex } from '@chakra-ui/layout';
 import BgVideo from '../../../resources/images/video-bg.png'
 import ButtonPlay from './ButtonPlay';
@@ -10,7 +9,7 @@ export default function Section5() {
     const phoneNumber = '01 234 567 785 542'
 
     return (
-        <Fragment>
+        <>
             <Flex justifyContent="center" gridGap="40px" flexDirection="column" textAlign="center">
                 <AboutSharePizza />
             </Flex>
@@ -32,6 +31,6 @@ export default function Section5() {
                 <BookOnline phoneNumber={phoneNumber} />
                 <ButtonPlay />
             </Flex>
-        </Fragment>
+        </>
     );
 }

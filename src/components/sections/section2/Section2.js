@@ -1,5 +1,4 @@
 import { Center, Flex, Heading } from '@chakra-ui/layout';
-import React, { Fragment } from 'react';
 import CardServicies from './CardServicies';
 import PizzaIcon from './PizzaIcon'
 import PlateIcon from './PlateIcon'
@@ -30,7 +29,6 @@ export default function Section2() {
     ]
 
     return (
-        <Fragment>
             <Flex w="full" py="122px" justifyContent="center" flexDirection="column">
                 <Heading textAlign="center" fontFamily="'Montserrat', sans-serif !important" mb="60px" >
                     About Pizza
@@ -45,6 +43,5 @@ export default function Section2() {
                     }
                 </Center>
             </Flex>
-        </Fragment>
     );
 }

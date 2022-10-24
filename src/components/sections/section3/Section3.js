@@ -1,6 +1,5 @@
 import { Image } from '@chakra-ui/image';
 import { Flex } from '@chakra-ui/layout';
-import React, { Fragment } from 'react';
 import ImageBg from '../../../resources/images/facts-bg.jpg'
 import pizzaIngredients from '../../../resources/images/pizza-ingredients.png'
 import InfoContainer from './InfoContainer'
@@ -8,7 +7,6 @@ import InfoContainer from './InfoContainer'
 
 export default function Section3() {
     return (
-        <Fragment>
             <Flex
                 position="relative"
                 bgImg={`url(${ImageBg})`}
@@ -33,6 +31,5 @@ export default function Section3() {
                 />
                 <InfoContainer />
             </Flex>
-        </Fragment>
     );
 }

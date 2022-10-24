@@ -1,11 +1,9 @@
-import React, { Fragment } from 'react';
 import { Flex, Stack, Text } from '@chakra-ui/layout';
 import { Heading } from "@chakra-ui/react"
 import bgImage from '../../../resources/images/icon-bg.png'
 
 export default function CardServicies({ title, description, iconSvg }) {
     return (
-        <Fragment>
             <Stack w={['320px', '320px', '380px', '400px', '400px']} h="400px"
                 boxShadow="0 3px 20px 0px rgb(0 0 0 / 12%)"
                 borderRadius="3xl" textAlign="center"
@@ -34,6 +32,5 @@ export default function CardServicies({ title, description, iconSvg }) {
                     {description}
                 </Text>
             </Stack>
-        </Fragment>
     );
 }

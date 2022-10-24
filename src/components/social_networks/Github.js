@@ -1,8 +1,7 @@
-import React, { Fragment } from 'react';
 
 export default function Github() {
     return (
-        <Fragment>
+        
             <svg
                 viewBox="0 0 256 250"
                 xmlns="http://www.w3.org/2000/svg"
@@ -13,6 +12,6 @@ export default function Github() {
                     fill="currentColor"
                 />
             </svg>
-        </Fragment>
+        
     );
 }
